@@ -1,0 +1,647 @@
+1.Microsoft
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Material Icons" rel="stylesheet">
+        <title>Create account</title>
+        <style>
+            body {
+                background-image: url('Img/wallpaper.png');
+                background-size: cover;
+            }
+            #vungDl {
+                width: 360px;
+                height: 285px;
+                margin: 150px auto;
+                background-color: white;
+                padding: 48px;
+                box-shadow: 6px 14px 28px #080808;
+            
+            }
+            input {
+                width: 60%;
+                height: 32px;
+                border-left: none;
+                border-right: none;
+                border-top: none;
+                border-bottom: 1px solid #0067b8;
+                
+            }
+            input:focus, select:focus {
+                outline: none;
+            }
+            
+            select {
+                width: 37%;
+                height: 35px;
+                border-left: none;
+                border-right: none;
+                border-top: none;
+                margin-left: -5px;
+                margin-top: 2px;
+                border-bottom: 1px solid #0067b8;
+                color: gray;
+
+            }
+            div {
+                margin-top: 36px;
+
+            }
+            h3 {
+                font-family: 'Segoe UI', sans-serif;
+                font-weight:normal;
+                font-weight:600;
+                color:#696969;
+            }
+            .xanhTrang {
+                width: 119px;
+                height: 35px;
+                background-color: #0067b8;
+                color: white;
+                text-decoration: none;
+                display: block;
+                text-align: center;
+                padding-top: 1px;
+                float: right;
+                border: none;
+                margin: -10px 0;    
+                
+            }
+            button {
+                cursor: pointer;
+                padding-top: 24px;
+            }
+            a{
+                color: #0067b8;
+                text-decoration: none;
+                font-family: 'Segoe UI', sans-serif;
+                font-weight:normal;
+            }
+            button:hover {
+                opacity: 0.85;
+            }
+
+                
+            
+        </style>
+    </head>
+    <body>
+        <div id="vungDl">
+            <img src="Img/logo.svg" alt="Logo Microsoft" />
+            <h3>Create account</h3>
+            <div>
+                <input id="abc" type="text" placeholder="New email" />
+                <select>
+                    <option>@Outlook.com</option>
+                    <option>@hotmail.com</option>
+
+                </select>
+            </div>
+            <div>
+                <a href="https://support.microsoft.com/en-us/office/adding-your-phone-number-to-a-microsoft-account-c0fad622-6a0e-4b7d-90a5-59a4dabf053b" target="_blank">Use a phone number instead</a>
+                </br>
+                <a href="https://support.microsoft.com/en-us/account-billing/how-to-create-a-new-microsoft-account-a84675c3-3e9e-17cf-2911-3d56b15c0aaf" target="_blank">Get a new email address</a>
+            </div>
+            <div>
+                <button class="xanhTrang" onclick=" window.location.href='index2.html';">Next</button>
+            </div>
+        </div>
+
+    </body>
+</html>
+
+2.Microsoft:
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Material Icons" rel="stylesheet">
+        <title>Create account</title>
+        <style>
+            body {
+                background-image: url('Img/wallpaper.png');
+                background-size: cover;
+            }
+            .block{
+                background-color: white;
+                width: 450px;
+                height: 380px;
+                margin: 100px auto;
+                padding: 48px;
+                box-shadow: 6px 14px 28px  #080808;
+            }
+    
+            .title{
+
+                font-family: 'Segoe UI', sans-serif;
+                font-weight: 600;
+                color: #696969;
+            }
+            .nut{
+                width: 119px;
+                height: 35px;
+                background-color: #0067b8;
+                color: white;
+                text-decoration: none;
+                display: block;
+                text-align: center;
+                padding-top: 1px;
+                float: right;
+                border: none;
+                margin: -3px 0;    
+            }
+            input:focus {
+                outline: none;
+            }
+            div{
+                margin: 28px 0;
+                margin-left: 3%;
+            }
+            a{
+                color: #0067b8;
+                text-decoration: none;
+                font-family: 'Segoe UI', sans-serif;
+                font-weight:normal;
+
+            }
+            .nhaplieu{
+                width: 97%;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 1px solid #0067b8;
+                padding-bottom: 12px;
+            }
+            p{
+                font-family: 'Segoe UI', sans-serif;
+            }
+            button:hover {
+                opacity: 0.85;
+            }
+
+        </style>
+    </head>
+    <body >
+
+        <div class="block">
+            <div>
+                <img class="logo" src="Img/logo.svg" alt="">
+                <h2 class="title">Create a password</h2>
+                <p>Enter the password you would like to use with your account.</p>
+            </div>
+        
+            <div>
+                <input type="password" class="nhaplieu" placeholder="Password">
+            </div>
+            <div>
+                <p><input  style="color: gray;" type="checkbox">Send me promotional emails from Microsoft</p>
+            </div>
+    
+            <div>
+                <p style="font-size: small;">Choosing <b>Next</b> means that you agree to the <a href="https://www.microsoft.com/vi-vn/servicesagreement/" target="_blank">Microsoft Services Agreement</a> and <a href="https://privacy.microsoft.com/vi-vn/privacystatement" target="_blank">privacy and cookies statement.</a></p>
+            </div>
+            <div>
+                <button class="nut" onclick=" window.location.href='index3.html';">Next</button>
+            </div>
+        </div>
+    </body>
+</html>
+
+3.Microsoft :
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Material Icons" rel="stylesheet">
+        <title>Create account</title>
+        <style>
+            body {
+                background-image: url('Img/wallpaper.png');
+                background-size: cover;
+            }
+            .block {
+                background-color: white;
+                width: 450px;
+                height: 324px;
+                margin: 138px auto;
+                padding: 48px;
+                box-shadow: 6px 14px 28px  #080808;
+            }
+    
+            .title {
+                font-weight: 600;
+                color: #696969;
+                font-family: 'Segoe UI', sans-serif;
+            }
+            .nut{
+                width: 120px;
+                height:30px;
+                background-color: #0067b8;
+                border-color: #0067b8;
+                color:white;
+                float: right;
+                display: block;
+                border: none;
+                margin-right: 20px
+            }
+            input:focus {
+                outline: none;
+            }
+            div{
+                margin: 28px 0;
+                margin-left: 3%;
+            }
+            a{
+                color: #0067b8;
+                text-decoration: none;
+                font-family: 'Segoe UI', sans-serif;
+                font-weight:normal;
+
+            }
+            .nhaplieu{
+                width: 94%;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 1px solid #0067b8;
+                padding-bottom: 12px;
+            }
+            p{
+                font-family: 'Segoe UI', sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="block">
+            <div>
+                <img class="logo" src="Img/logo.svg" alt="">
+                <h2 class="title">Create account</h2>
+                <p>We need just a little more info to set up your account.</p>
+            </div>
+        <div>
+            <input type="text" class="nhaplieu" placeholder="Name">
+        </div>
+        <div>
+            <input type="text" class="nhaplieu" placeholder="Family name">
+        </div>
+    
+
+        <div>
+            <button class="nut"  onclick=" window.location.href='index4.html';">Next</button>
+        </div>
+       
+    </div>
+</body>
+</html>  
+
+4.Microsoft :
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Material Icons" rel="stylesheet">
+        <title>Create account</title>
+        <style>
+            body {
+                background-image: url('Img/wallpaper.png');
+                background-size: cover;
+            }
+            .block{
+                background-color: white;
+                width: 450px;
+                height: 390px;
+                margin: 100px auto;
+                padding: 48px;
+                box-shadow: 6px 14px 28px  #080808;
+       
+            }
+    
+            .title{
+
+                font-family: 'Segoe UI', sans-serif;
+                font-weight: 600;
+                color: #696969;
+            }
+            .nut{
+                width: 120px;
+                height:30px;
+                background-color: #0067b8;
+                border-color: #0067b8;
+                color:white;
+                float: right;
+                display: block;
+                border: none;
+                margin: 21px 14px;
+            }
+            div{
+                margin: 20px 0;
+                margin-left: 3%;
+            }
+            a{
+                color: #0067b8;
+                text-decoration: none;
+                font-family: 'Segoe UI', sans-serif;
+                font-weight:normal;
+
+            }
+            .nhaplieu{
+                width: 31.5%;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 1px solid #0067b8;
+		        font-family: 'Segoe UI', sans-serif;
+		        font-weight:normal;
+                padding-bottom: 12px;
+
+            }
+            select {
+                color: #696969;
+            }
+            input:focus, select:focus {
+                outline: none;
+                
+            }
+            p{
+                font-family: 'Segoe UI', sans-serif;
+            }
+            #cars {
+                width: 97%;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="block">
+            <div>
+                <img class="logo" src="Img/logo.svg" alt="">
+                <h2 class="title">Add details</h2>
+                <p>We need just a little more info to set up your account.</p>
+            </div>
+            <div>
+		        <p><b>Country/region</b></p>
+                <select name="cars" class="nhaplieu" id="cars">
+			        <option value="vn">Vietnam</option>
+			        <option value="us">United States</option>
+                    <option value="lao">Laos</option>
+                    <option value="trungquoc">China</option>
+                    <option value="english">England</option>
+                    <option value="Sw">Sweden</option>
+                    <option value="phap">France</option>
+                    <option value="duc">Germany</option>
+                    <option value="ita">Italy</option>
+                    <option value="spain">Spain</option>
+                    <option value="nga">Russia</option>
+                    <option value="ukraina">Ukraine</option>
+                    <option value="sure">Orther</option>
+		        </select>
+            </div>
+            <div>
+                <p><b>Birthdate</b></p>
+                <select class="nhaplieu" id="thang">
+                    <option value="month">Month</option>
+			        <option value="1">1</option>
+			        <option value="2">2</option>
+			        <option value="3">3</option>
+			        <option value="4">4</option>
+			        <option value="5">5</option>
+			        <option value="6">6</option>
+                    <option value="7">7</option>
+			        <option value="8">8</option>
+			        <option value="9">9</option>
+			        <option value="10">10</option>
+			        <option value="11">11</option>
+			        <option value="12">12</option>
+		        </select>
+                <select class="nhaplieu" id="ngay">
+                    <option value="Day">Day</option>
+			        <option value="1">1</option>
+			        <option value="2">2</option>
+			        <option value="3">3</option>
+			        <option value="4">4</option>
+			        <option value="5">5</option>
+			        <option value="6">6</option>
+			        <option value="7">7</option>
+			        <option value="8">8</option>
+			        <option value="9">9</option>
+			        <option value="10">10</option>
+			        <option value="11">11</option>
+			        <option value="12">12</option>
+			        <option value="13">13</option>
+			        <option value="14">14</option>
+			        <option value="15">15</option>
+			        <option value="16">16</option>
+			        <option value="17">17</option>
+			        <option value="18">18</option>
+			        <option value="19">19</option>
+			        <option value="20">20</option>
+			        <option value="21">21</option>
+			        <option value="22">22</option>
+			        <option value="23">23</option>
+			        <option value="24">24</option>
+			        <option value="25">25</option>
+			        <option value="26">26</option>
+			        <option value="27">27</option>
+			        <option value="28">28</option>
+			        <option value="29">29</option>
+			        <option value="30">30</option>
+			        <option value="31">31</option>
+		        </select>
+		        
+		        <select class="nhaplieu" id="nam">
+                    <option value="Year">Year</option>
+			        <option value="1990">1990</option>
+			        <option value="1991">1991</option>
+			        <option value="1992">1992</option>
+			        <option value="1993">1993</option>
+			        <option value="1994">1994</option>
+			        <option value="1995">1995</option>
+                    <option value="1996">1996</option>
+                    <option value="1997">1997</option>
+                    <option value="1998">1998</option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+		        </select>
+            </div>
+            <div>
+                <button class="nut" onclick=" window.location.href='index5.html';">Next</button>
+            </div>
+        </div>
+   
+    </body>
+</html>
+
+5.Microsoft :
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Material Icons" rel="stylesheet">
+        <title>Create account</title>
+        <style>
+            body {
+                background-image: url('Img/wallpaper.png');
+                background-size: cover;
+            }
+            .block {
+                background-color: white;
+                width: 450px;
+                height: 468px;
+                margin: 100px auto;
+                padding: 48px;
+                box-shadow: 6px 14px 28px  #080808;
+           
+            }
+
+        
+            .title {
+
+                font-family: 'Segoe UI', sans-serif;
+                font-weight: 600;
+                color: #696969;
+            }
+
+            .nut {
+                width: 120px;
+                height: 30px;
+                background-color: #0067b8;
+                border-color: #0067b8;
+                color: white;
+                float: right;
+                display: block;
+                border: none;
+                margin: 21px 14px;
+                cursor: pointer;
+            }
+
+            div {
+                margin: 20px 0;
+                margin-left: 3%;
+            }
+
+            a {
+                color: #0067b8;
+                text-decoration: none;
+                font-family: 'Segoe UI', sans-serif;
+                font-weight: normal;
+
+            }
+
+            .nhaplieu {
+                width: 95%;
+                border-top: none;
+                border-left: none;
+                border-right: none;
+                border-bottom: 1px solid;
+                border-color: #0067b8;
+                font-family: 'Segoe UI', sans-serif;
+                font-weight: normal;
+
+            }
+
+            p {
+                font-family: 'Segoe UI', sans-serif;
+            }
+
+            .clearfix::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+            #QR-Card {
+                width: 191px;
+                height: 93px;
+                margin-top: 30px;
+            }
+            #mod-button {
+                width: 200px;
+                height: 30px;
+                border: none;
+                background-color: #CCCCCC;
+                border-color: #CCCCCC;
+                color: black;
+                margin-bottom: 0px;
+            }
+            #custom-button {
+                width: 200px;
+                height: 30px;
+                border: none;
+                background-color: #CCCCCC;
+                border-color: #CCCCCC;
+                color: black;
+                margin-bottom: 5px
+
+            }
+            input:focus {
+                outline: none;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <div class="block">
+            <div>
+                <img class="logo" src="Img/logo.svg" alt="">
+                <h2 class="title">Create account</h2>
+                <p>Before proceeding, we need to make sure a real person is creating this account.</p>
+            </div>
+            <div class="clearfix">
+
+                <img  id="QR-Card" src="Img/captcha.png" alt="">
+                <div style="float:right;">
+                    <button class="nut" id="mod-button">New</button>
+                    </br></br>
+                    <button class="nut" id="custom-button">Audio</button>
+                </div>
+                <p style="padding-top: 15px"><b>Enter the characters you see</b></p>
+                <input type="text" class="nhaplieu" placeholder="">
+            </div>
+
+
+            <div>
+                <button class="nut">Next</button>
+            </div>
+        </div>
+    
+    </body>
+
+</html>
